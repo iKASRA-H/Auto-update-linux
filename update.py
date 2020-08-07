@@ -1,5 +1,5 @@
 #for automate this code add a command like this to crontab -e:     0 4 * * 1 python3 /root/Auto-update-linux-master/update.py
-#you can modify   0 4 * * 1   to any time you want.(If you don't know how to edit it to your wanted time this site can help you https://crontab.guru/ )
+#you can modify   0 4 * * 1   to any time you want.(If you don't know how to edit it to the time you want this site can help you https://crontab.guru/ )
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
